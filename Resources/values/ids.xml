@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item name="gen_linearLayout" type="id"/>
+  <item name="gen_listView" type="id"/>
+
+  <item name="gen_item_alterar" type="id"/>
+  <item name="gen_item_excluir" type="id"/>
+  <item name="gen_item_salvar" type="id"/>
+
+  <item name="menu_grafico_gen" type="id"/>
+  <item name="menu_lista_gen" type="id"/>
+  <item name="menu_campomultiline_gen" type="id"/>
+</resources>

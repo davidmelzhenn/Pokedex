@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">Pedido PDA</string>
+  <string name="hello">Hello World, Click Me!</string>
+  <string name="app_name">SupportLibaryTest</string>
+  <string name="open_drawer">Open drawer</string>
+  <string name="close_drawer">Close drawer</string>
+  <string name="dialog_cancel">Cancelar</string>
+  <string name="dialog_ok">Ok</string>
+  <string name="acessar">Acessar</string>
+  <string name="verificar">Verificar</string>
+  <string name="balanco">Balanço</string>
+  <string name="coletar">Coletar</string>
+  <string name="itens">Itens</string>
+  <string name="excluir">Excluir</string>
+</resources>
+

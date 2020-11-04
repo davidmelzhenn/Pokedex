@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@android:color/transparent"
+    android:weightSum="1.0">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_weight="0.3">
+        <TextView
+            android:text="Aproxime o código de barras para escanear. Ele será escaneado automaticamente."
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:gravity="center"
+            android:layout_weight="0"
+            android:layout_marginRight="5dp"
+            android:textSize="12sp"
+            android:layout_marginLeft="5dp"
+            android:background="@android:color/transparent"
+            android:textColor="#ffffffff" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_weight="0.5" />-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#dd2d00"
+            android:id="@+id/laser" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_weight="0.2"
+        android:layout_gravity="center">
+        <TextView
+            android:text="Evite sombras e brilho. Segure o dispositivo a cerca de 15 cm do código de barras."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center"
+            android:textColor="#ffffffff"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:gravity="center" />
+        <Button
+            android:text="Ligar Flash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonZxingFlash"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="20dp" />
+    </LinearLayout>
+</LinearLayout>

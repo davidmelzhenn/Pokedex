@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <style name="SplashTheme" parent="MyTheme.Base">
+    <item name="windowNoTitle">true</item>
+    <item name="android:windowBackground">@drawable/splash_centered</item>
+    <item name="android:navigationBarColor">@color/white</item>
+    <item name="android:windowAnimationStyle">@null</item>
+    <item name="android:windowActionBar">false</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowFullscreen">true</item>
+  </style>
+  
+  <style name="NumberPickerStyle">
+    <item name="android:textSize">22dp</item>
+    <item name="android:textColorPrimary">@color/colorAccent</item>
+  </style>
+  
+  <style name="MyTheme" parent="MyTheme.Base">
+
+  </style>
+
+  <!-- Base theme applied no matter what API -->
+  <style name="MyTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <!--We will be using the toolbar so no need to show ActionBar-->
+    <item name="windowActionBar">false</item>
+    <!-- Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette-->
+    <!-- colorPrimary is used for the default action bar background -->
+    <item name="colorPrimary">#2196F3</item>
+    <!-- colorPrimaryDark is used for the status bar -->
+    <item name="colorPrimaryDark">#1976D2</item>
+    <!-- colorAccent is used as the default value for colorControlActivated
+         which is used to tint widgets -->
+    <item name="colorAccent">#2196F3</item>
+
+    <!--
+    
+    <item name="colorAccent">#FF4081</item>
+    <item name="colorControlHighlight">#FF4081</item>
+     You can also set colorControlNormal, colorControlActivated
+         colorControlHighlight and colorSwitchThumbNormal. -->
+  </style>
+ 
+  
+  <style name="MyTheme.Azul" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimaryDark">#1976D2</item>
+    <item name="colorPrimary">#1E88E5</item>
+    <item name="colorAccent">#2196F3</item>
+  </style>
+
+  <style name="MyTheme.Vermelho" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimaryDark">#E53935</item>
+    <item name="colorPrimary">#F44336</item>    
+    <item name="colorAccent">#EF5350</item>
+  </style>
+
+
+  <style name="MyTheme.Purpura" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimaryDark">#673AB7</item>
+    <item name="colorPrimary">#7E57C2</item>
+    <item name="colorAccent">#9575CD</item>
+  </style>
+
+  <style name="MyTheme.Pink" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimaryDark">#C2185B</item>
+    <item name="colorPrimary">#D81B60</item>
+    <item name="colorAccent">#E91E63</item>
+  </style>
+
+  <style name="MyTheme.Verde" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimaryDark">#2E7D32</item>
+    <item name="colorPrimary">#388E3C</item>
+    <item name="colorAccent">#43A047</item>
+  </style>
+
+  <style name="MyTheme.VerdeEscuro" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimaryDark">#00796B</item>
+    <item name="colorPrimary">#00897B</item>
+    <item name="colorAccent">#009688</item>
+  </style>
+
+
+  <style name="MyTheme.Laranja" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimaryDark">#E65100</item>
+    <item name="colorPrimary">#EF6C00</item>
+    <item name="colorAccent">#F57C00</item>
+  </style>
+
+  <style name="MyTheme.LaranjaEscuro" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimaryDark">#E64A19</item>
+    <item name="colorPrimary">#F4511E</item>
+    <item name="colorAccent">#FF5722</item>
+  </style>
+
+
+  <style name="MyTheme.Marrom" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimaryDark">#795548</item>
+    <item name="colorPrimary">#8D6E63</item>
+    <item name="colorAccent">#A1887F</item>
+  </style>
+
+
+  <style name="MyTheme.Cinza" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimaryDark">#424242</item>
+    <item name="colorPrimary">#616161</item>
+    <item name="colorAccent">#757575</item>
+  </style>
+
+  <style name="MyTheme.CinzaAzulado" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimaryDark">#546E7A</item>
+    <item name="colorPrimary">#607D8B</item>
+    <item name="colorAccent">#78909C</item>
+  </style>
+
+
+  <style name="MyTheme.AzulPink" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimaryDark">#1976D2</item>
+    <item name="colorPrimary">#1E88E5</item>
+    <item name="colorAccent">#FF3F80</item>
+  </style>
+
+  <style name="MyTheme.AzulLaranja" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimaryDark">#1976D2</item>
+    <item name="colorPrimary">#1E88E5</item>
+    <item name="colorAccent">#FF6D00</item>
+  </style>
+
+
+
+
+  <style name="MyTheme2" parent="MyTheme.Base2">
+
+  </style>
+
+  <!-- Base theme applied no matter what API -->
+  <style name="MyTheme.Base2" parent="Theme.AppCompat">
+    <item name="windowNoTitle">true</item>
+    <!--We will be using the toolbar so no need to show ActionBar-->
+    <item name="windowActionBar">false</item>
+    <!-- Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette-->
+    <!-- colorPrimary is used for the default action bar background -->
+    <item name="colorPrimary">#2196F3</item>
+    <!-- colorPrimaryDark is used for the status bar -->
+    <item name="colorPrimaryDark">#1976D2</item>
+    <!-- colorAccent is used as the default value for colorControlActivated
+         which is used to tint widgets -->
+    <item name="colorAccent">#2196F3</item>
+
+    <!--
+    <item name="colorControlHighlight">#FF4081</item>
+     You can also set colorControlNormal, colorControlActivated
+         colorControlHighlight and colorSwitchThumbNormal. -->
+  </style>
+
+  <style name="AppTheme.Button" parent="Widget.AppCompat.Button.Colored">
+    <item name="colorButtonNormal">#EF6C00</item>
+    <item name="android:textColor">#FFFFFF</item>
+  </style>
+
+
+
+</resources>
